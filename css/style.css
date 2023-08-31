@@ -43,6 +43,8 @@ inizio selettori- tag
 inizio header
 */
 
+
+
 header p{
     margin-bottom: 30px;
 }
@@ -66,20 +68,27 @@ fine header
 inizio main
 */
 
+.debug{
+    height: 100%;
+    /*border: 1px solid red;*/
+}
+
 .colonne{
-    height: 100px;
+    height: calc(50% - 10px / 2);
     width: calc(33.33% - 40px / 3 );
     background-color: #0f0e17;
     float: left; 
     margin-right: 20px;
     box-shadow: 0px 0px 3px 3px grey; /*any color you want*/
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .thirth-col{
     margin-right: 0;
 
 }
+
+
 
 
 .container::after{
@@ -152,7 +161,7 @@ fine generali
     
   
     .colonne{
-        height: 250px;
+        height: 00px2;
         width: calc(33.33% - 6px / 3 );
         background-color: #0f0e17;     
         margin-right: 2px;
@@ -166,7 +175,7 @@ fine generali
         text-align: center;
     }
 
-     a{
+    a{
         display: none;
      }
 
