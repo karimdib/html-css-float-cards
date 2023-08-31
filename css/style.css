@@ -8,7 +8,7 @@ inizio generali
 }
 
 body{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -26,6 +26,7 @@ footer{
     color: white;
     height: 100px;
     padding: 20px;
+    margin-top: 30px;
 }
 
 /*
@@ -37,10 +38,7 @@ inizio generali
 inizio selettori- tag
 */
 
-.debug{
-    min-height: 150px;
-    
-}
+
 /*
 inizio header
 */
@@ -70,17 +68,14 @@ inizio main
 
 .colonne{
     height: 100px;
-    width: calc(33.33% - 30px / 3 );
+    width: calc(33.33% - 60px / 3 );
     background-color: #0f0e17;
     float: left; 
-    margin-right: 10px;
+    margin-right: 20px;
     box-shadow: 0px 0px 3px 3px grey; /*any color you want*/
+    margin-top: 30px;
 }
 
-.first-col{
-    margin-right: 10px;
-
-}
 
 .container::after{
     display: block;
