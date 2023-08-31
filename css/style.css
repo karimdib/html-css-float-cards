@@ -19,7 +19,7 @@ main{
 
 .debug{
     min-height: 150px;
-    border: 1px solid red;
+    
 }
 
 h1{
@@ -65,7 +65,25 @@ img{
 
 h4{
     font-family: 'Fredoka', sans-serif;
-    padding: 3px;
+    padding: 8px;
+    font-size: 20px;
 }
+
+.content p{
+    padding: 5px;
+}
+
+.content a{
+    text-decoration: none;
+    color: #22a0ca;
+}
+
+.content::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
 
 
