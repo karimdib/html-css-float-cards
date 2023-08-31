@@ -1,3 +1,6 @@
+/*
+inizio generali
+*/
 *{
     margin: 0;
     padding: 0;
@@ -17,9 +20,33 @@ main{
     color: white;
 }
 
+footer{
+    text-align: center;
+    background-color: #222222;
+    color: white;
+    height: 100px;
+    padding: 20px;
+}
+
+/*
+inizio generali
+*/
+
+
+/*
+inizio selettori- tag
+*/
+
 .debug{
     min-height: 150px;
     
+}
+/*
+inizio header
+*/
+
+header p{
+    margin-bottom: 30px;
 }
 
 h1{
@@ -32,14 +59,22 @@ header p{
     margin-bottom: 30px;
 }
 
+/*
+fine header
+*/
+
+
+/*
+inizio main
+*/
+
 .colonne{
     height: 100px;
     width: calc(33.33% - 30px / 3 );
-    
     background-color: #0f0e17;
     float: left; 
     margin-right: 10px;
-    ;
+    box-shadow: 0px 0px 3px 3px grey; /*any color you want*/
 }
 
 .first-col{
@@ -56,6 +91,7 @@ header p{
 img{
     height: 100px;
     margin-right: 2px;
+    padding-right: 8px;
 }
 
 .fl{
@@ -71,6 +107,7 @@ h4{
 
 .content p{
     padding: 5px;
+    
 }
 
 .content a{
@@ -83,6 +120,14 @@ h4{
     content: "";
     clear: both;
 }
+/*
+fine main
+*/
+
+/*
+fine generali
+*/
+
 
 
 
