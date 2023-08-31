@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    color: white;
+}
+
+.debug{
+    min-height: 150px;
+    border: 1px solid red;
+}
+
+h1{
+    font-family: 'Fredoka', sans-serif;
+    color: #e642a1;
+    padding: 30px;
+}
+
+header p{
+    margin-bottom: 30px;
+}
+
+.colonne{
+    height: 100px;
+    width: calc(33.33% - 30px / 3 );
+    
+    background-color: #0f0e17;
+    float: left; 
+    margin-right: 10px;
+    ;
+}
+
+.first-col{
+    margin-right: 10px;
+
+}
+
+.container::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+img{
+    height: 100px;
+    margin-right: 2px;
+}
+
+.fl{
+    float: left;
+    
+}
+
+h4{
+    font-family: 'Fredoka', sans-serif;
+    padding: 3px;
+}
+
+
