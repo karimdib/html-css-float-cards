@@ -68,13 +68,9 @@ fine header
 inizio main
 */
 
-.debug{
-    height: 100%;
-    /*border: 1px solid red;*/
-}
 
 .colonne{
-    height: calc(50% - 10px / 2);
+    
     width: calc(33.33% - 40px / 3 );
     background-color: #0f0e17;
     float: left; 
@@ -87,8 +83,6 @@ inizio main
     margin-right: 0;
 
 }
-
-
 
 
 .container::after{
